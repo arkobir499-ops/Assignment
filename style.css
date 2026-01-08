@@ -5,8 +5,8 @@
 }
 
 .container{
-    /* max-width: 1660px; */
-    width: 85%;
+    max-width: 1660px;
+    width: 80%;
     margin: auto;
 }
 .navbar{
@@ -122,7 +122,7 @@
     display: flex;
     margin-top: 44px;
     gap: 24px;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 .card-section .card-area .card{
     text-align: center;
@@ -148,4 +148,66 @@
     margin-top: 16px;
     padding: 0 5px 30px 5px;
    
+}
+
+.brain-part{
+    display: flex;
+    margin-top: 120px;
+    gap: 60px;
+}
+.brain-part .right-part{
+    margin-top: 102px;
+}
+.brain-part .right-part h5{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #30B868;
+}
+.brain-part .right-part h1{
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-part .right-part p{
+    /* margin-top: 16px; */
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.brain-part .right-part .lower-part{
+    margin-top: 40px;
+}
+.list{
+    display: flex;
+}
+.extra-section{
+    background-color: rgba(247, 246, 242, 1);
+    text-align: center;
+    margin-top: 120px;
+}
+.extra-section .extra-content{
+    padding: 80px 40px;
+}
+
+.extra-section .extra-content h2{
+    color: rgba(0, 25, 49, 1);
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+
+.extra-section .extra-content p{
+    color: rgba(98, 115, 130, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.last-button{
+    margin-bottom: 16px;
 }
