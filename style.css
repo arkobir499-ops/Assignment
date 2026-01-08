@@ -39,6 +39,10 @@
     background-color: #30B868;
     color: rgba(255, 255, 255, 1);
 }
+button:hover{
+    background-color: #49c5eb;
+    color: #000000;
+}
 .hero-part{
     text-align: center;
     background-image: url(./assets/hero-bg.png);
@@ -211,6 +215,7 @@
 .last-button{
     margin-bottom: 16px;
 }
+
 footer{
     background-color: rgba(0, 25, 49, 1);
 }
